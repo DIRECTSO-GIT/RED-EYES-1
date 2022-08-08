@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>WAREHOUSE SYSTEM</title>
+<link rel="icon" type="image/png" sizes="16x16" href="../../TITLE/favicon.ico">
+<link rel="stylesheet" href="CSS/error.css" />
+<link rel="stylesheet" href="CSS/main.css" />
+<meta http-equiv="Refresh" content="20;url=redeye:">
+</head>
+ 
+  <head> 
+  <script> 
+  devir = 30; 
+  devir++; 
+  function yazdir(devir) 
+  { 
+  if(devir>=0)document.getElementById("sayac").innerHTML = devir; 
+   
+  } 
+  geriSayim = setInterval("devir=devir-1; yazdir(devir)",1000); 
+  </script> 
+  </div> 
+   
+   
+  </body>
+
+<body>
+
+<video autoplay loop muted>
+    <source src="../../SOUND/SFXBible_12478.mp3" />
+</video>
+
+<script>
+    window.onload = function () {
+        document.querySelector("video").muted = false;
+    };
+</script>
+
+<h1 id="err"><font color="green"><span id="sayac"></span></font> FUSE OPERATING <span id="loading-dots"> ></span></h1>
+<script>
+var dots = window.setInterval( function() {
+var wait = document.getElementById("loading-dots");
+if ( wait.innerHTML.length > 2 ) 
+wait.innerHTML = "";
+else 
+wait.innerHTML += " >";
+}, 1000);
+setTimeout(function(){
+    window.location.href = '../LOAD/L1.html';
+}, 30000);
+ </script>
+
+</body>
+</html>

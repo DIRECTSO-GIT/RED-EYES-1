@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url("../fonts/minecraftfont.eot");
+    src: url("../fonts/minecraftfont.woff") format("woff"), url("../fonts/minecraftfont.ttf") format("truetype"); }
+
+html, body {
+    overflow: hidden;
+    font-family: Minecraft, sans-serif;
+    height: 100%;
+    margin:5px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color:#ffffff00;
+}
+
+.newgame, .newgame-old .options, .menu, .credits {
+    display: none;
+}
+
+
+
+.page-content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+

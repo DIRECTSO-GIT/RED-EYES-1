@@ -1,14 +1,14 @@
-#s9 {
-    top: 10%;
-    left: 3%;
+#s3 {
+    top: 30%;
+    left: 4.1%;
 }
 
 #continue-game {
     top: 79%;
-    left: 60%;
+    left: 23%;
 }
 
-#s9, #continue-game {
+#s3, #continue-game {
     font-weight: 100;
     position: absolute;
     font-size: 30px;
@@ -16,6 +16,6 @@
     text-decoration: none;
 }
 
-#s9:hover:before, #continue-game:hover:before {
-    content: ""
+#s3:hover:before, #continue-game:hover:before {
+    content: ">> "
 }
