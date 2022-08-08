@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: black;
+	color: white;
+}
+
+.blockOverlay{
+    background-color:black !important;
+}
+.blockMsg {
+    border: 0px !important;
+}
+#ana {
+	width: 100%;	
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	top: 50%;
+	/*margin-top-top: -200px;*/ /* yüksekliğin yarısı */
+	text-align: center;
+	background-color: black;
+}
+
+#icorta {
+	height: auto;
+	width: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
