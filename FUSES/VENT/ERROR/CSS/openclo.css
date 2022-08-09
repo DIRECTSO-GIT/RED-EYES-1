@@ -1,0 +1,29 @@
+
+.start {
+    position: relative;
+    height: 100%;
+    z-index: 3;
+}
+
+#err {
+    top: 2%;
+    left: 2%;
+}
+
+#continue-game {
+    top: 79%;
+    left: 23%;
+}
+
+#err, #continue-game {
+    font-weight: 100;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(48, 204, 1);
+    text-decoration: none;
+}
+
+#err:hover:before, #continue-game:hover:before {
+    content: ""
+}
+

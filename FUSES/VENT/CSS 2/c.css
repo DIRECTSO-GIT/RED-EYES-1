@@ -1,0 +1,21 @@
+#s3 {
+    top: 30%;
+    left: 4.1%;
+}
+
+#continue-game {
+    top: 79%;
+    left: 23%;
+}
+
+#s3, #continue-game {
+    font-weight: 100;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(170, 19, 19);
+    text-decoration: none;
+}
+
+#s3:hover:before, #continue-game:hover:before {
+    content: ">> "
+}
