@@ -1,0 +1,21 @@
+#s1 {
+    top: 50%;
+    left: 4.1%;
+}
+
+#continue-game {
+    top: 79%;
+    left: 23%;
+}
+
+#s1, #continue-game {
+    font-weight: 100;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(32, 163, 20);
+    text-decoration: none;
+}
+
+#s1:hover:before, #continue-game:hover:before {
+    content: ">> "
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>WAREHOUSE SYSTEM</title>
+<link rel="icon" type="image/png" sizes="16x16" href="../TITLE/favicon.ico">
+<link rel="stylesheet" href="CSS/lose.css" />
+<link rel="stylesheet" href="CSS/main.css" />
+<meta http-equiv="Refresh" content="1000;url=redeye:">
+</head>
+<body>
+<h1 id="err">ENERGY LOW<span id="loading-dots"></span></h1>
+<script>
+var dots = window.setInterval( function() {
+var wait = document.getElementById("loading-dots");
+if ( wait.innerHTML.length > 2 ) 
+wait.innerHTML = "";
+else 
+wait.innerHTML += "";
+}, 1000);
+setTimeout(function(){
+    window.location.href = '';
+}, 10000);
+ </script>
+
+</body>
+</html>

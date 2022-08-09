@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LOADING</title>
+<link rel="stylesheet" href="CSS/error.css" />
+<link rel="stylesheet" href="CSS/main.css" />
+<meta http-equiv="Refresh" content="5;url=redeye:">
+</head>
+<body>
+
+<video autoplay loop muted>
+    <source src="../../SOUND/COMPUTER_DIGITAL_L2076505.mp3" />
+</video>
+
+<script>
+    window.onload = function () {
+        document.querySelector("video").muted = false;
+    };
+</script>
+
+<h1 id="err">ERROR <span id="loading-dots">></span></h1>
+<script>
+var dots = window.setInterval( function() {
+var wait = document.getElementById("loading-dots");
+if ( wait.innerHTML.length > 2 ) 
+wait.innerHTML = "";
+else 
+wait.innerHTML += ">";
+}, 1000);
+setTimeout(function(){
+    window.location.href = '../index_3.html';
+}, 10000);
+ </script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+
+#continue-game {
+    top: 79%;
+    left: 60%;
+}
+
+#s7, #continue-game {
+    font-weight: 100;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(170, 19, 19);
+    text-decoration: none;
+}
+
+#s7:hover:before, #continue-game:hover:before {
+    content: ""
+}
